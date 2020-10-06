@@ -6,8 +6,11 @@ public class NumFinderMain {
         NumFinder nf = new NumFinder();
 
         //this works
-        nf.find(new int[] {4, 25, 7, 9});
+        nf.find(new int[] {4, 21, 3, 1});
 
+        // Da valores de 2147483648 y -2147483648 con valor de null o vacio
+        // nf.find(new int[] {});
+        
         // this crashes
         // nf.find(new int[] {4, 3, 2, 1});
 
